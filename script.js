@@ -1,5 +1,5 @@
 function showAlert() {
-    alert('Hello! Thank you for playing my short, text-based game, True or False! This is based on the reality TV show "Moment of Truth". Images are from shutterstock and audio is from pixabay. Hint: 211112');
+    alert('Hello! Thank you for playing my short, text-based game, True or False! This is based on the reality TV show "Moment of Truth". Windows95 font is from arnesava.com, images from shutterstock and VectorShock, images edited in 8bitworkshop.com, audio is from pixabay.com, audio is edited in websim.com. Hint: 211112');
 }
 
 function start() {
