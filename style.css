@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0f0f0f;
+    color: #f40404;
+	font-family: 'Windows 95 Font', Arial, sans-serif;
+}
+
+/* Add this @font-face rule to specify the font */
+@font-face{
+    font-family: 'Windows 95 Font';
+    src: url('W95font.otf') format('opentype');
+}
+
+.gameOpen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.gameOpenText{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #f40404;
+    border-radius: 10px;
+    background-color: #0f0f0f;
+	font-family: 'Windows 95 Font', Arial, sans-serif;
+}
+
+button{
+    background-color: #f40404;
+    color: #0f0f0f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+	font-family: 'Windows 95 Font', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: #a80000;
+}

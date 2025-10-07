@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>True or False?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="gameOpen">
+    <div class="gameOpenText">
+        <h1>Quiz Show</h1>
+        <p>Rules are simple.<br>If you tell the truth, you win a cash prize!<br>If you lie, you lose!<br><br>Good luck, Jack!</p>
+		<center><button onclick="showAlert()">About</button></center>
+		<br>
+		<button onclick="start()">Start Game</button>
+        <br>
+        <br>
+        <button onclick="playAudio('assets/applause.mp3')">Audience</button>
+		<audio id="audio-player" style="display: none;" controls>
+        </audio>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You lose!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="gameOpen">
+    <div class="gameOpenText">
+        <h1>Uh oh!</h1>
+		<img src="assets/jack.png" alt="Jack">
+        <p>You lost your chance at $100,000!<br>Now what?</p>
+		<center><button onclick="restart()">Restart</button></center>
+        <br>
+        <button onclick="playAudio('assets/boo.mp3')">Audience</button>
+		<audio id="audio-player" style="display: none;" controls>
+        </audio>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
